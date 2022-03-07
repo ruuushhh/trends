@@ -5,3 +5,33 @@ This project contain API which will get data from twitter and google news relate
 It will also analyse the sentiment score of content using Huggingface trained model.
 
 
+To access this APIs locally follow below steps:
+
+**First,** Install pipenv if you don't have it on your system
+
+```
+pip install pipenv
+```
+
+**Sencond,** Activate pipenv virtual environment
+
+```
+pipenv shell
+
+```
+
+**Third,** Install all the dependencies
+
+```
+pipenv install
+
+```
+Now your App is almost ready,
+
+To run the **Local Server**
+
+```
+uvicorn index:app --reload
+
+```
+
