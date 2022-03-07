@@ -35,3 +35,10 @@ uvicorn index:app --reload
 
 ```
 
+To access the API you will have to go to 
+
+```
+http://127.0.0.1:8000/docs
+
+```
+
