@@ -12,6 +12,7 @@ pandas = "*"
 googlenews = "*"
 transformers = "*"
 tensorflow = "*"
+gunicorn = "*"
 
 [dev-packages]
 
